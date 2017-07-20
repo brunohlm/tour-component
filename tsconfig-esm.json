@@ -2,13 +2,13 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
-    "module": "umd",
+    "module": "es2015",
     "target": "es5",
     "experimentalDecorators": true,
     "sourceMap": true,
     "declaration": true,
     "removeComments": true,
-    "outDir": "dist/umd",
+    "outDir": "dist/esm",
     "moduleResolution": "node",
     "lib": [
       "es2015",
@@ -23,7 +23,7 @@
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
-    "genDir": "dist/umd",
+    "genDir": "dist/esm",
     "skipTemplateCodegen": true,
     "debug": false
   }

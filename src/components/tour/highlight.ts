@@ -141,7 +141,7 @@ export class Highlight {
   }
 }
 
-interface HighlightOptions {
+export interface HighlightOptions {
   cls?: string;
   title?: string;
   description?: string;

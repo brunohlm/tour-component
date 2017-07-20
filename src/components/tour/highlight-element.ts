@@ -2,8 +2,8 @@
 export class HighlightElement {
 
   original: HTMLElement;
-  clone: Node;
-  offset: BoundingRectangle;
+  public clone: Node;
+  public offset: BoundingRectangle;
   boundingRectRefElements: Array<Node> = [];
 
   constructor(original: HTMLElement, clone?: Node, offset?: BoundingRectangle) {
@@ -60,7 +60,7 @@ export class HighlightElement {
 
 }
 
-interface BoundingRectangle {
+export interface BoundingRectangle {
   top?: number;
   right?: number;
   bottom?: number;

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { TourComponent } from './tour-component';
+import { TourComponent } from './components/tour/tour-component';
 
 @NgModule({
   declarations: [
