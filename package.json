@@ -1,8 +1,8 @@
 {
   "name": "tour-component",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "version": "0.0.2",
+  "author": "mba",
+  "homepage": "mbamobi.com.br",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -35,5 +35,5 @@
     "@ionic/cli-plugin-ionic-angular": "1.3.2",
     "typescript": "2.3.4"
   },
-  "description": "An Ionic project"
+  "description": "Tour component"
 }
