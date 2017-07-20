@@ -1,0 +1,103 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/v2/theming/
+@import "ionic.globals";
+
+
+// Font path is used to include ionicons,
+// roboto, and noto sans fonts
+$font-path: "../assets/fonts";
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary: #3298F0,
+  secondary: #32db64,
+  danger: #f53d3d,
+  light: #f4f4f4,
+  dark: #222,
+  toolbar: #2E3251,
+  labels: #2C363E,
+  labels-silver: #8A8E96,
+  grey-onboard: #D0D0D0,
+  grey-50: #FAFAFA,
+  grey-100: #F5F5F5,
+  grey-200: #EEEEEE,
+  grey-300: #E0E0E0,
+  grey-400: #BDBDBD,
+  grey-500: #9E9E9E,
+  grey-600: #757575,
+  grey-700: #616161,
+  grey-800: #424242,
+  grey-900: #212121,
+  black: #000000,
+  dark_gray: #EFF1F5,
+  simulacao-navbar: #E75F6D
+);
+
+$incident: (
+  type-abastecimento-agua: #01ABCD,
+  type-aplicacao: #BB7BD8,
+  type-clima: #FBAB4D,
+  type-medico: #0FD3B0,
+  type-energia: #AABF33,
+  type-incendio: #F65959,
+  type-malote: #62C1D4,
+  type-eliminacao: #FF8065,
+  type-seguranca: #4E75A7,
+  type-outros: #95A4A6
+);
+
+$tab-bar-color: #B9C2CD;
+
+// App iOS Variables
+// --------------------------------------------------
+$tabs-ios-tab-icon-color: $tab-bar-color;
+$tabs-ios-tab-text-color: $tab-bar-color;
+$text-input-ios-show-focus-highlight: false;
+// iOS only Sass variables can go here
+
+// App Material Design Variables
+// --------------------------------------------------
+$tabs-md-tab-icon-color: $tab-bar-color;
+$tabs-md-tab-text-color: $tab-bar-color;
+$text-input-md-show-focus-highlight: false;
+// Material Design only Sass variables can go here
+
+// App Windows Variables
+// --------------------------------------------------
+$tabs-wp-tab-icon-color: $tab-bar-color;
+$tabs-wp-tab-text-color: $tab-bar-color;
+$text-input-wp-show-focus-highlight: false;
+// Windows only Sass variables can go here
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/v2/ionicons/
+
+$ionicons-font-path: "../assets/fonts";
+@import "ionicons";
+@import "roboto";
+@import "noto-sans";
