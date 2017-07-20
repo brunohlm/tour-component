@@ -25,7 +25,8 @@ import { HighlightElement } from './components/tour/highlight-element';
     Highlight,
     HighlightElement,
     TourComponent,
-    Tour
+    Tour,
+    TourController
   ]
 })
 export class TourComponentModule {
