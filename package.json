@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "author": "mba",
   "homepage": "mbamobi.com.br",
-  "private": true,
+  "module" : "index.d.ts",
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
