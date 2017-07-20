@@ -3,6 +3,8 @@
   "version": "0.0.2",
   "author": "mba",
   "homepage": "mbamobi.com.br",
+  "main": "dist/umd/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
