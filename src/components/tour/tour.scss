@@ -1,3 +1,10 @@
+@mixin vendor-prefixes($property, $value) {
+  #{$property}: $value;
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+}
+
 .tour {
   position: absolute;
   top: 0;
