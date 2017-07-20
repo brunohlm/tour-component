@@ -4,21 +4,20 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
-import { MyApp } from './app.component';
 import { TourComponentModule } from '../components/tour/tour.module';
 
 @NgModule({
   declarations: [
-    MyApp
+    TourComponentModule
   ],
   imports: [
     BrowserModule,
-    TourComponentModule,
-    IonicModule.forRoot(MyApp)
+    // TourComponentModule,
+    IonicModule.forRoot(TourComponentModule)
   ],
   bootstrap: [ IonicApp ],
   entryComponents: [
-    MyApp
+    TourComponentModule
   ],
   providers: [
     StatusBar,
@@ -26,5 +25,5 @@ import { TourComponentModule } from '../components/tour/tour.module';
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
-export class AppModule {
+export class TourModule {
 }
