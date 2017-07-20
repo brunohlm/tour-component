@@ -11,8 +11,10 @@
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
+    "copy:css": "node ./scripts/copycss",
     "build:esm": "ngc -p tsconfig-esm.json",
-    "build:umd": "ngc"
+    "build:umd": "ngc",
+    "build:all": "npm run build:esm && npm run build:umd && npm run copy:css"
   },
   "dependencies": {
     "@angular/common": "4.1.3",
@@ -28,6 +30,7 @@
     "ionicons": "3.0.0",
     "rxjs": "5.4.0",
     "sw-toolbox": "3.6.0",
+    "shelljs": "0.7.6",
     "zone.js": "0.8.12"
   },
   "devDependencies": {

@@ -1,10 +1,7 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { TourComponent } from './components/tour/tour-component';
-import { Tour, TourController } from './components/tour/tour';
-import { Step } from './components/tour/step';
-import { Highlight } from './components/tour/highlight';
-import { HighlightElement } from './components/tour/highlight-element';
+import { TourController } from './components/tour/tour';
 var TourComponentModule = (function () {
     function TourComponentModule() {
     }
@@ -14,11 +11,7 @@ export { TourComponentModule };
 TourComponentModule.decorators = [
     { type: NgModule, args: [{
                 declarations: [
-                    Step,
-                    Highlight,
-                    HighlightElement,
-                    TourComponent,
-                    Tour
+                    TourComponent
                 ],
                 imports: [
                     IonicPageModule.forChild(TourComponent),
@@ -27,11 +20,7 @@ TourComponentModule.decorators = [
                     TourController
                 ],
                 exports: [
-                    Step,
-                    Highlight,
-                    HighlightElement,
-                    TourComponent,
-                    Tour
+                    TourComponent
                 ]
             },] },
 ];
